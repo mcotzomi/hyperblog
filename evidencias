@@ -12,4 +12,9 @@ git remote add origin "y la direccion del repositorio"
 git remote -v
 
 git push origin master// enviar al origen la rama master, deberàs logearte con cuenta github
-git pull origin master --allow-unrelated-histories
+git pull origin master --allow-unrelated-histories //traerse las cosas de github
+
+
+eval $(ssh-agent -s)//para ver si el servidor ssh esta corriendo
+
+//tenemos que agregar la llave que acabamos de crear
