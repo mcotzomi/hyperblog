@@ -1,0 +1,15 @@
+git pull // manda al repositorio remota
+
+git log// historial de cambios
+q// para salir del historial de cambios
+
+
+
+git checkout "nombre de la rama"// cambio de rama
+/////////////////////////////////////////////////////////////
+github****
+git remote add origin "y la direccion del repositorio"
+git remote -v
+
+git push origin master// enviar al origen la rama master, deberàs logearte con cuenta github
+git pull origin master --allow-unrelated-histories
