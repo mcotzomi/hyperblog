@@ -1,4 +1,9 @@
+git add .//para actualizar cambios
+git commit -m "" hacer commit
+
 git pull // manda al repositorio remota
+
+git diff//para ver lo que cambio del archivo
 
 git log// historial de cambios
 q// para salir del historial de cambios
@@ -9,7 +14,7 @@ git checkout "nombre de la rama"// cambio de rama
 /////////////////////////////////////////////////////////////
 github****
 git remote add origin "y la direccion del repositorio"
-git remote -v
+git remote -v//para ver rutas
 
 git push origin master// enviar al origen la rama master, deberàs logearte con cuenta github
 git pull origin master --allow-unrelated-histories //traerse las cosas de github
@@ -18,3 +23,24 @@ git pull origin master --allow-unrelated-histories //traerse las cosas de github
 eval $(ssh-agent -s)//para ver si el servidor ssh esta corriendo
 
 //tenemos que agregar la llave que acabamos de crear
+
+git remote set-url "ruta ssh de github"//para cambiar ruta a ssh
+git commit -am ""//
+
+git log --all --graph --decorate --oneline //historial
+
+
+para hacer un alias en unenorno local se hace:
+
+alias nombre=" git log --all --graph --decorate --oneline"
+
+╰─❯ git tag -a v0.1 -m "resultado d elas primeras clases del curso" bce5ceb//crear un tag
+
+
+git show-ref --tags
+
+git push origin --tags//para subir a github los tags que creamos
+
+git tag//para ver que tgas tenemos
+git tag -d nombre_del_tag//para eliminar el tag
+git push origin :refs/nombre_del_tag //para borrar permanentemente el tag de github
