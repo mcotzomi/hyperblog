@@ -51,3 +51,5 @@ git branch nombre d ela rama//crea rama
 
 git clone direcion del proyecto//para clonar proyecto
 git clone "direcion del proyecto" -b "nombre de la rama que queremos" --single-branch
+
+git rm --cached "nombre del directorio a eliminar"//para eliminar una carpeta con todo
