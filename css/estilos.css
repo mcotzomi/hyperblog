@@ -20,7 +20,11 @@ body
     margin: 0;
     padding: 0.5em;
 }
+<<<<<<< HEAD
 cabecera #logo
+=======
+#cabecera #logo
+>>>>>>> 424b42a33a564e80569af985e0be0fbc04ea3b82
 {
     width: 20px;
     vertical-align: middle;
@@ -50,4 +54,14 @@ cabecera #logo
 {
     background: white;
     padding: 1em;
+<<<<<<< HEAD
+=======
+}
+
+#footer
+{
+    background: #777;
+    color: white;
+    text-align: center;
+>>>>>>> 424b42a33a564e80569af985e0be0fbc04ea3b82
 }
