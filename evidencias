@@ -1,3 +1,4 @@
+
 git add .//para actualizar cambios de toda la carpeta
 git commit -m "" //hacer commit
 
@@ -53,3 +54,15 @@ git clone direcion del proyecto//para clonar proyecto
 git clone "direcion del proyecto" -b "nombre de la rama que queremos" --single-branch
 
 git rm --cached "nombre del directorio a eliminar"//para eliminar una carpeta con todo
+
+
+bucar cosas 
+
+git grep color// use la palabra color
+
+git grep la// donde use la palabra la
+
+
+
+log / para los commits
+
